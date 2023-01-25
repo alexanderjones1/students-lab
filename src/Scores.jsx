@@ -1,8 +1,12 @@
+import Score from "./Score";
+
 const Scores = (props) => {
-  console.log(props);
+  console.log(props.scores);
   return (
     <>
-      <h4>This is a Scores component</h4>
+      {props.scores.map((score) => (
+        <Score key={score.date} score={score}/>
+      ))}
     </>
   )
 }

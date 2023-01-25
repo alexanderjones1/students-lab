@@ -1,9 +1,10 @@
 const Score = (props) => {
+  console.log(props.score);
   return (
     <>
-      <h4>This is a Score component</h4>
+      <h3>{props.score.score}</h3>
     </>
   )
 }
 
-export default 
+export default Score
