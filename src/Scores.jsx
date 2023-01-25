@@ -3,7 +3,6 @@ const Scores = (props) => {
   return (
     <>
       <h4>This is a Scores component</h4>
-      
     </>
   )
 }
